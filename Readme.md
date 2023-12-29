@@ -1,8 +1,3 @@
-<!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/128539682/13.1.4%2B)
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E2285)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-<!-- default badges end -->
 <!-- default file list -->
 *Files to look at*:
 
@@ -10,9 +5,6 @@
 * [Default.aspx.cs](./CS/DynamicShowHidePreview/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/DynamicShowHidePreview/Default.aspx.vb))
 <!-- default file list end -->
 # How to dynamically show or hide text within the preview panel
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e2285/)**
-<!-- run online end -->
 
 
 <p>This example demonstrates how to emulate content switching within rows' <a href="http://documentation.devexpress.com/#AspNet/CustomDocument3672">preview panel</a>. Initially, a preview displays an expand button and a label with short text of a long memo field. When the expand button is clicked, full text is displayed.</p><p>This functionality is implemented by changing visibility of controls within the <a href="http://documentation.devexpress.com/#AspNet/DevExpressWebASPxGridViewGridViewTemplates_PreviewRowtopic">PreviewRow</a> template.</p><p>To avoid flickering, place the ASPxGridView within the AJAX UpdatePanel and set <a href="http://documentation.devexpress.com/#AspNet/DevExpressWebASPxGridViewASPxGridView_EnableCallBackstopic">ASPxGridView.EnableCallBacks</a> to false.</p><p><strong>See Also:</strong><br />
